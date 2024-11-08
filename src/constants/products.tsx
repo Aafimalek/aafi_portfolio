@@ -9,104 +9,80 @@ import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterk
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://celeb-img-clf.streamlit.app/",
+    title: "First celebrity image classifier",
     description:
-      "A design and development studio that focuses on building quality apps.",
+      "Created a deep learning model to classify celebrity images using CNNs (Convolutional Neural Networks) RestNet50.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    stack: ["Paython", "Torchvision", "Pillow", "Pytorch"],
+    slug: "First-celebrity-image-classifier",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Created a deep learning model to classify celebrity images using CNNs
+          (Convolutional Neural Networks) RestNet50.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          Trained the model on a dataset of celebrity images and deployed it
+          using Streamlit for user interaction.
         </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "https://bangalore-house-price.streamlit.app/",
+    title: "Bangalore house price prediction",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
+      "Developed a Linear Regression model to predict house prices in Bangalore using Python and Streamlit.",
     thumbnail: sidefolioAlgochurn,
     images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+    stack: ["Python", "scikit-learn", "Pandas", "Matplotlib", "Pickle"],
+    slug: "Bangalore-house-price-prediction",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Developed a Linear Regression model to predict house prices in
+          Bangalore using Python and Streamlit.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          Implemented data preprocessing, feature engineering, and model
+          evaluation to improve accuracy.
         </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    href: "https://penguins-classifier.streamlit.app/",
+    title: "Penguins classifier",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
+      "Built a RandomForestClassifier to distinguish penguin species based on physical measurements.",
     thumbnail: sidefolioMoonbeam,
     images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
+    stack: ["Python", "scikit-learn", "Matplotlib", "Streamlit", "Pickle"],
+    slug: "Penguins-classifier",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Built a RandomForestClassifier to distinguish penguin species based on
+          physical measurements.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          Experimented with multiple classification algorithms such as Random
+          Forest and Logistic Regression.
         </p>{" "}
       </div>
     ),
   },
   {
     href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    title: "Plant Disease Detection",
     description:
       "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
     thumbnail: sidefolioTailwindMasterKit,
     images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
+    stack: ["Python", "scikit-learn", "Matplotlib", "Streamlit", "Pickle"],
+    slug: "plant-disease-detection",
     content: (
       <div>
         <p>
