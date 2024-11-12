@@ -29,8 +29,8 @@ export default function RootLayout({
         )}
       >
         <Sidebar />
-        <div className="lg:pl-1 bg-neutral-100 flex-1 overflow-y-auto">
-          <div className="flex-1 bg-black text-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
+        <div className="bg-neutral-100 flex-1 overflow-y-auto border-l-2">
+          <div className="flex-1 bg-black text-white min-h-screen border border-transparent overflow-y-auto">
             {children}
             <Footer />
           </div>

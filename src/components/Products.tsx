@@ -15,15 +15,16 @@ export const Products = () => {
         {products.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
-            initial={{
-              opacity: 0,
-              x: -50,
-            }}
-            animate={{
-              opacity: 1,
-              x: 0,
-            }}
+            // initial={{
+            //   opacity: 0,
+            //   x: -50,
+            // }}
+            // animate={{
+            //   opacity: 1,
+            //   x: 0,
+            // }}
             transition={{ duration: 0.2, delay: idx * 0.1 }}
+            className="shadow-lg shadow-emerald-400/75 rounded-2xl"
           >
             <Link
               href={product.slug ? `/projects/${product.slug}` : product.href}

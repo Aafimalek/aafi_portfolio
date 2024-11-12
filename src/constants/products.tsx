@@ -15,7 +15,7 @@ export const products = [
       "Created a deep learning model to classify celebrity images using CNNs (Convolutional Neural Networks) RestNet50.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Paython", "Torchvision", "Pillow", "Pytorch"],
+    stack: ["Python", "Torchvision", "Pillow", "Pytorch"],
     slug: "First-celebrity-image-classifier",
     content: (
       <div>
