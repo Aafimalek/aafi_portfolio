@@ -10,7 +10,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blogs | Aafi Malek",
   description:
-    "Aafi Malek is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Aafi Malek is a Machine Learning Engineer and loves working remotely.",
 };
 
 export default async function Blog() {

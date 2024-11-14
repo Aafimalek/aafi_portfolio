@@ -12,7 +12,7 @@ import About from "@/components/About";
 export const metadata: Metadata = {
   title: "About | Aafi Malek",
   description:
-    "Aafi Malek is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Aafi Malek is a Machine Learning Engineer, he loves working remotely.",
 };
 
 export default function AboutPage() {

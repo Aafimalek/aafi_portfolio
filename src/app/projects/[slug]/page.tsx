@@ -24,9 +24,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } else {
     return {
-      title: "Projects | John Doe",
+      title: "Projects | Aafi Malek",
       description:
-        "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+        "Aafi Malek is a Machine Learning Engineer and loves working remotely.",
     };
   }
 }

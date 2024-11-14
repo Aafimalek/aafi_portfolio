@@ -45,28 +45,26 @@ export default function About() {
           Hello! I’m Aafi, currently pursuing my Bachelor’s degree in Artificial
           Intelligence and Machine Learning in Gujarat, India. My fascination
           with technology started young, but it was discovering the potential of
-          AI and ML that truly hooked me. Since then, I’ve been diving deep into
+          Machine Learning that truly hooked me. Since then, I’ve been diving deep into
           the field, aiming to understand and harness the power of machine
           learning to solve real-world challenges.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Over the past few years, I’ve focused on building a strong foundation
-          in AI and ML. I’ve completed projects in supervised learning,
-          classification, and even explored optimization techniques and image
-          processing. Alongside my coursework, I’ve taken online certifications
+          Over the past few months, I’ve focused on building a strong foundation
+          in Artificial Intelligence and Machine Learning. I’ve completed projects in supervised learning,
+          classification, and even explored image processing. Alongside my coursework, I’ve taken online certifications
           to push my skills further, including foundational courses by Andrew
-          Ng, and I’m actively building more hands-on experience through
+          Ng(DeepLearning.AI), and I’m actively building more hands-on experience through
           internships and personal projects.
         </Paragraph>
 
         <Paragraph className=" mt-4">
-          In addition to AI, I’m passionate about programming and am constantly
-          working on new ways to improve my coding skills. I’m a quick learner
+          In addition to AI, I’m a quick learner
           and always excited to work on challenging problems that push my
           creativity and technical ability.
         </Paragraph>
         <Paragraph className=" mt-4">
-          Outside of my academic and professional pursuits, I’m a big movie
+          Outside of my academic and professional pursuits, I’m a big films
           lover! Whether it’s exploring different genres or appreciating the art
           of storytelling, films are my go-to escape. As I move forward, I’m
           eager to connect with like-minded people in the AI and tech community

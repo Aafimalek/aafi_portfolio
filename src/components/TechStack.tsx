@@ -7,48 +7,48 @@ export const TechStack = () => {
   const stack = [
     {
       title: "Python",
-      src: "/images/logos/python.png",
-      className: "h-10 w-14",
+      src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+      className: "h-10 w-12",
     },
     {
       title: "Streamlit",
-      src: "/images/logos/streamlit.jpeg",
-      className: "h-10 w-10",
+      src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg",
+      className: "h-10 w-12",
     },
     {
       title: "numpy",
-      src: "/images/logos/numpy.png",
-      className: "h-10 w-8",
+      src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg",
+      className: "h-10 w-12",
     },
     {
       title: "pandas",
-      src: "/images/logos/pandas.png",
-      className: "h-10 w-10",
+      src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
+      className: "h-10 w-12",
     },
     {
       title: "matplotlib",
-      src: "/images/logos/matpotlib.jpeg",
+      src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg",
       className: "h-10 w-12",
     },
     {
       title: "scikit-learn",
-      src: "/images/logos/sci-kit.png",
-      className: "h-10 w-24",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg",
+      className: "h-10 w-12",
     },
     {
       title: "pytorch",
-      src: "/images/logos/pytorch.jpeg",
-      className: "h-10 w-24",
+      src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
+      className: "h-10 w-12",
     },
     {
       title: "tensorflow",
-      src: "/images/logos/tensorflow.png",
-      className: "h-10 w-24",
+      src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
+      className: "h-10 w-12",
     },
     {
       title: "js",
-      src: "/images/logos/js.jpeg",
-      className: "h-10 w-24",
+      src:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      className: "h-10 w-12",
     },
   ];
   return (

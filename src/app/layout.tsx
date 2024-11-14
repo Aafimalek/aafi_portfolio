@@ -11,9 +11,9 @@ import { Footer } from "@/components/Footer";
 // });
 
 export const metadata: Metadata = {
-  title: "Aafi Malek - Developer",
+  title: "Aafi Malek - MLE",
   description:
-    "Aafi Malek is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Aafi Malek is a Machine Learning Engineer and loves working remotely.",
 };
 
 export default function RootLayout({

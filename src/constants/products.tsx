@@ -75,10 +75,10 @@ export const products = [
     ),
   },
   {
-    href: "https://tailwindmasterkit.com",
+    href: "https://github.com/Aafimalek/plant_disease_detection",
     title: "Plant Disease Detection",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
+      "Built a plant disease detection app using PlantVillage dataset on kaggle",
     thumbnail: sidefolioTailwindMasterKit,
     images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
     stack: ["Python", "scikit-learn", "Matplotlib", "Streamlit", "Pickle"],
