@@ -1,11 +1,11 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import c1 from "public/images/c1.png";
+import c2 from "public/images/c2.png";
+import hp2 from "public/images/hp1.png";
+import hp1 from "public/images/hp2.png";
+import p1 from "public/images/p1.png";
+// import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
+// import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
+// import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
 
 export const products = [
   {
@@ -13,8 +13,8 @@ export const products = [
     title: "First celebrity image classifier",
     description:
       "Created a deep learning model to classify celebrity images using CNNs (Convolutional Neural Networks) RestNet50.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+    thumbnail: c1,
+    images: [c1, c2],
     stack: ["Python", "Torchvision", "Pillow", "Pytorch"],
     slug: "First-celebrity-image-classifier",
     content: (
@@ -35,8 +35,8 @@ export const products = [
     title: "Bangalore house price prediction",
     description:
       "Developed a Linear Regression model to predict house prices in Bangalore using Python and Streamlit.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
+    thumbnail: hp1,
+    images: [hp1, hp2],
     stack: ["Python", "scikit-learn", "Pandas", "Matplotlib", "Pickle"],
     slug: "Bangalore-house-price-prediction",
     content: (
@@ -57,8 +57,8 @@ export const products = [
     title: "Penguins classifier",
     description:
       "Built a RandomForestClassifier to distinguish penguin species based on physical measurements.",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
+    thumbnail: p1,
+    images: [p1],
     stack: ["Python", "scikit-learn", "Matplotlib", "Streamlit", "Pickle"],
     slug: "Penguins-classifier",
     content: (
@@ -79,8 +79,8 @@ export const products = [
     title: "Plant Disease Detection",
     description:
       "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
+    thumbnail: p1,
+    images: [p1],
     stack: ["Python", "scikit-learn", "Matplotlib", "Streamlit", "Pickle"],
     slug: "plant-disease-detection",
     content: (

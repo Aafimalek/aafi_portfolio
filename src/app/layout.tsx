@@ -24,12 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={twMerge(
-          "flex antialiased h-screen overflow-hidden bg-black"
-        )}
+        className={twMerge("flex antialiased h-screen overflow-hidden gap-1")}
       >
         <Sidebar />
-        <div className="bg-neutral-100 flex-1 overflow-y-auto border-l-2">
+        <div className="bg-neutral-100 flex-1 overflow-y-auto ">
           <div className="flex-1 bg-black text-white min-h-screen border border-transparent overflow-y-auto">
             {children}
             <Footer />

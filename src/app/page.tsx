@@ -30,13 +30,13 @@ export default function Home() {
           I&apos;m a movie enthusiast and love diving into the stories they
           tell!
         </Paragraph>
-        <Heading
+        {/* <Heading
           as="h2"
           className="font-black text-white text-lg md:text-lg lg:text-lg mt-20 mb-4"
         >
           What I&apos;ve been working on
-        </Heading>
-        <Products />
+        </Heading> */}
+        {/* <Products /> */}
         <TechStack />
       </Container>
       <AboutPage />
