@@ -5,3 +5,7 @@
 ::placeholder {
   color: black;
 }
+
+.shadow {
+  box-shadow: 10px 10px 70px #047857;
+}
